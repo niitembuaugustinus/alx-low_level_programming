@@ -1,18 +1,15 @@
 include "main.h"
 /**
- * main-main block
- */
-int main(void)
+ * A function that prints the alphabet in lowercase
+ **/
+void print_alphabet_x10(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar("\n");
-
-	return (0);
+int i;
+char c;
+for (i = 0; i < 10; i++)
+{
+for (c = 'a'; c <= 'z'; c++)
+_putchar(c);
+_putchar('\n');
+}
 }
