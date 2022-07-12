@@ -5,6 +5,7 @@
  * @s: this it the input string
  * Return: Length of the string
  */
+
 int _strlen(char *s)
 {
 	int index;
